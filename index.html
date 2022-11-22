@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="./assets/style.css">
   </head>
   <body>
     <header id="top">
@@ -18,7 +19,7 @@
           <li>Anything in the head element is not displayed to the user</li>
           <li>The head element contains information about the webpage</li>
           <li>The body element represents the visible content shown to the user</li>
-          <li>metadata elements are stored within the head element</li>
+          <li>Metadata elements are stored within the head element</li>
           <li>Elements that are nested inside other elements are "child elements"</li>
           <li>The element that holds all of the nested elements is called the "parent element"</li>
           <li>Section elements need to put at the front and back, with a "/" included in the back section element</li>
@@ -28,7 +29,32 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>How to link a .css file to an HTML file:</li>
+          <ul>
+            <li>link rel="stylesheet" href="./assets/style.css"</li>
+            <ul>
+              <li>link: creates a link to an external file</li>
+              <li>rel: specifies the relationship between the current document and the linked documnet</li>
+              <li>href: the url for the linked file</li>
+            </ul>
+          </ul>
+          <li>CSS Rule:</li>
+          <ul>
+            <li>div {color: blue; text-align: justify;}</li>
+            <ul>
+              <li>div = sector</li>
+              <li>color, text-align = property</li>
+              <li>blue, justify = value</li>
+              <li>Declaration block = everything inside {}</li>
+              </ul>
+          </ul>
+          <li>Using a "*" makes any folling changes apply to the entire code</li>
+          <li>You can combine elements: using h1, h2{style effects here}</li>
+          <li>You can also change picture dimensions with img {style in here}</li>
+          <li>A margin indicates how much space we want around the outside of an element</li>
+          <li>A padding indicates how much space we want around the content inside an element</li>
+          <li>Adding a "." before anything indicates that it is a class </li>
+          <li>We styled all class elements using .card in style.css</li>
         </ul>
       </section>
    
@@ -41,6 +67,7 @@
           <ul>
             <li>checkout: move to the working branch</li>
             <li>-b: creates a new branch</li>
+            <li>branchname: whatever you want to name the branch</li>
           </ul>
           <li>git clone SSH value: will clone the current version of the file off github and put it in your computer</li>
           <li>git pull origin main</li>
@@ -53,6 +80,11 @@
             <li>add: adds our changes to a staging area</li>
             <li>-A: indicates that we want to add all changes</li>
           </ul>
+          <li>Before we push our code to github, we want to make sure our local branch is still in sync with the base branch:</li>
+          <ul>
+            <li>git pull origin main</li>
+          </ul>
+          <li>git push origin branchname</li>
         </ul>
       </section>
    
